@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D424541C23827AB9007F748C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424541B23827AB9007F748C /* AppDelegate.swift */; };
+		D424541E23827AB9007F748C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424541D23827AB9007F748C /* SceneDelegate.swift */; };
+		D424542023827AB9007F748C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424541F23827AB9007F748C /* ContentView.swift */; };
+		D424542223827ABB007F748C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D424542123827ABB007F748C /* Assets.xcassets */; };
+		D424542523827ABB007F748C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D424542423827ABB007F748C /* Preview Assets.xcassets */; };
+		D424542823827ABB007F748C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D424542623827ABB007F748C /* LaunchScreen.storyboard */; };
+		D424543323827ABC007F748C /* ChibiCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424543223827ABC007F748C /* ChibiCoinTests.swift */; };
+		D424543E23827ABC007F748C /* ChibiCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424543D23827ABC007F748C /* ChibiCoinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D424542F23827ABC007F748C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D424541023827AB9007F748C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D424541723827AB9007F748C;
+			remoteInfo = ChibiCoin;
+		};
+		D424543A23827ABC007F748C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D424541023827AB9007F748C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D424541723827AB9007F748C;
+			remoteInfo = ChibiCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D424541823827AB9007F748C /* ChibiCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChibiCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D424541B23827AB9007F748C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D424541D23827AB9007F748C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D424541F23827AB9007F748C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D424542123827ABB007F748C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D424542423827ABB007F748C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D424542723827ABB007F748C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D424542923827ABB007F748C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D424542E23827ABC007F748C /* ChibiCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChibiCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D424543223827ABC007F748C /* ChibiCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibiCoinTests.swift; sourceTree = "<group>"; };
+		D424543423827ABC007F748C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D424543923827ABC007F748C /* ChibiCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChibiCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D424543D23827ABC007F748C /* ChibiCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibiCoinUITests.swift; sourceTree = "<group>"; };
+		D424543F23827ABC007F748C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D424541523827AB9007F748C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D424542B23827ABC007F748C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D424543623827ABC007F748C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D424540F23827AB9007F748C = {
+			isa = PBXGroup;
+			children = (
+				D424541A23827AB9007F748C /* ChibiCoin */,
+				D424543123827ABC007F748C /* ChibiCoinTests */,
+				D424543C23827ABC007F748C /* ChibiCoinUITests */,
+				D424541923827AB9007F748C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D424541923827AB9007F748C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D424541823827AB9007F748C /* ChibiCoin.app */,
+				D424542E23827ABC007F748C /* ChibiCoinTests.xctest */,
+				D424543923827ABC007F748C /* ChibiCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D424541A23827AB9007F748C /* ChibiCoin */ = {
+			isa = PBXGroup;
+			children = (
+				D424541B23827AB9007F748C /* AppDelegate.swift */,
+				D424541D23827AB9007F748C /* SceneDelegate.swift */,
+				D424541F23827AB9007F748C /* ContentView.swift */,
+				D424542123827ABB007F748C /* Assets.xcassets */,
+				D424542623827ABB007F748C /* LaunchScreen.storyboard */,
+				D424542923827ABB007F748C /* Info.plist */,
+				D424542323827ABB007F748C /* Preview Content */,
+			);
+			path = ChibiCoin;
+			sourceTree = "<group>";
+		};
+		D424542323827ABB007F748C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D424542423827ABB007F748C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D424543123827ABC007F748C /* ChibiCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				D424543223827ABC007F748C /* ChibiCoinTests.swift */,
+				D424543423827ABC007F748C /* Info.plist */,
+			);
+			path = ChibiCoinTests;
+			sourceTree = "<group>";
+		};
+		D424543C23827ABC007F748C /* ChibiCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D424543D23827ABC007F748C /* ChibiCoinUITests.swift */,
+				D424543F23827ABC007F748C /* Info.plist */,
+			);
+			path = ChibiCoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D424541723827AB9007F748C /* ChibiCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D424544223827ABC007F748C /* Build configuration list for PBXNativeTarget "ChibiCoin" */;
+			buildPhases = (
+				D424541423827AB9007F748C /* Sources */,
+				D424541523827AB9007F748C /* Frameworks */,
+				D424541623827AB9007F748C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChibiCoin;
+			productName = ChibiCoin;
+			productReference = D424541823827AB9007F748C /* ChibiCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D424542D23827ABC007F748C /* ChibiCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D424544523827ABC007F748C /* Build configuration list for PBXNativeTarget "ChibiCoinTests" */;
+			buildPhases = (
+				D424542A23827ABC007F748C /* Sources */,
+				D424542B23827ABC007F748C /* Frameworks */,
+				D424542C23827ABC007F748C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D424543023827ABC007F748C /* PBXTargetDependency */,
+			);
+			name = ChibiCoinTests;
+			productName = ChibiCoinTests;
+			productReference = D424542E23827ABC007F748C /* ChibiCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D424543823827ABC007F748C /* ChibiCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D424544823827ABC007F748C /* Build configuration list for PBXNativeTarget "ChibiCoinUITests" */;
+			buildPhases = (
+				D424543523827ABC007F748C /* Sources */,
+				D424543623827ABC007F748C /* Frameworks */,
+				D424543723827ABC007F748C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D424543B23827ABC007F748C /* PBXTargetDependency */,
+			);
+			name = ChibiCoinUITests;
+			productName = ChibiCoinUITests;
+			productReference = D424543923827ABC007F748C /* ChibiCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D424541023827AB9007F748C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "寺本真之";
+				TargetAttributes = {
+					D424541723827AB9007F748C = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					D424542D23827ABC007F748C = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = D424541723827AB9007F748C;
+					};
+					D424543823827ABC007F748C = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = D424541723827AB9007F748C;
+					};
+				};
+			};
+			buildConfigurationList = D424541323827AB9007F748C /* Build configuration list for PBXProject "ChibiCoin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D424540F23827AB9007F748C;
+			productRefGroup = D424541923827AB9007F748C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D424541723827AB9007F748C /* ChibiCoin */,
+				D424542D23827ABC007F748C /* ChibiCoinTests */,
+				D424543823827ABC007F748C /* ChibiCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D424541623827AB9007F748C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D424542823827ABB007F748C /* LaunchScreen.storyboard in Resources */,
+				D424542523827ABB007F748C /* Preview Assets.xcassets in Resources */,
+				D424542223827ABB007F748C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D424542C23827ABC007F748C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D424543723827ABC007F748C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D424541423827AB9007F748C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D424541C23827AB9007F748C /* AppDelegate.swift in Sources */,
+				D424541E23827AB9007F748C /* SceneDelegate.swift in Sources */,
+				D424542023827AB9007F748C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D424542A23827ABC007F748C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D424543323827ABC007F748C /* ChibiCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D424543523827ABC007F748C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D424543E23827ABC007F748C /* ChibiCoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D424543023827ABC007F748C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D424541723827AB9007F748C /* ChibiCoin */;
+			targetProxy = D424542F23827ABC007F748C /* PBXContainerItemProxy */;
+		};
+		D424543B23827ABC007F748C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D424541723827AB9007F748C /* ChibiCoin */;
+			targetProxy = D424543A23827ABC007F748C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D424542623827ABB007F748C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D424542723827ABB007F748C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D424544023827ABC007F748C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D424544123827ABC007F748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D424544323827ABC007F748C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChibiCoin/Preview Content\"";
+				DEVELOPMENT_TEAM = MF66ELH462;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChibiCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ChibiCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D424544423827ABC007F748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChibiCoin/Preview Content\"";
+				DEVELOPMENT_TEAM = MF66ELH462;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChibiCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ChibiCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D424544623827ABC007F748C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF66ELH462;
+				INFOPLIST_FILE = ChibiCoinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ChibiCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChibiCoin.app/ChibiCoin";
+			};
+			name = Debug;
+		};
+		D424544723827ABC007F748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF66ELH462;
+				INFOPLIST_FILE = ChibiCoinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ChibiCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChibiCoin.app/ChibiCoin";
+			};
+			name = Release;
+		};
+		D424544923827ABC007F748C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF66ELH462;
+				INFOPLIST_FILE = ChibiCoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ChibiCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChibiCoin;
+			};
+			name = Debug;
+		};
+		D424544A23827ABC007F748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF66ELH462;
+				INFOPLIST_FILE = ChibiCoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ChibiCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChibiCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D424541323827AB9007F748C /* Build configuration list for PBXProject "ChibiCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D424544023827ABC007F748C /* Debug */,
+				D424544123827ABC007F748C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D424544223827ABC007F748C /* Build configuration list for PBXNativeTarget "ChibiCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D424544323827ABC007F748C /* Debug */,
+				D424544423827ABC007F748C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D424544523827ABC007F748C /* Build configuration list for PBXNativeTarget "ChibiCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D424544623827ABC007F748C /* Debug */,
+				D424544723827ABC007F748C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D424544823827ABC007F748C /* Build configuration list for PBXNativeTarget "ChibiCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D424544923827ABC007F748C /* Debug */,
+				D424544A23827ABC007F748C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D424541023827AB9007F748C /* Project object */;
+}
