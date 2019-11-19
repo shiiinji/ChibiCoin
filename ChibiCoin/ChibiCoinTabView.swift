@@ -15,28 +15,40 @@ struct ChibiCoinTabView: View {
         HomeView()
       }
       .tabItem({
-        Text("ホーム")
+        VStack {
+          Image(systemName: "house")
+          Text("ホーム")
+        }
       })
       
       NavigationView {
         ScanView()
       }
       .tabItem({
-        Text("スキャン")
+        VStack {
+          Image(systemName: "barcode.viewfinder")
+          Text("スキャン")
+        }
       })
       
       NavigationView {
         MessageView()
       }
       .tabItem({
-        Text("メッセージ")
+        VStack {
+          Image(systemName: "message")
+          Text("メッセージ")
+        }
       })
       
       NavigationView {
         SettingView()
       }
       .tabItem({
-        Text("設定")
+        VStack {
+          Image(systemName: "gear")
+          Text("設定")
+        }
       })
     }
   }
