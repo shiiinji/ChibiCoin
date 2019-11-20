@@ -42,7 +42,7 @@ struct ChibiCoinTabView: View {
       })
       
       NavigationView {
-        SettingView()
+        SettingsView()
       }
       .tabItem({
         VStack {
