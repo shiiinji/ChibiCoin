@@ -19,8 +19,13 @@ struct HomeView: View {
           Text("チビコイン")
             .font(.headline)
             .padding()
-          Text("¥0")
+          HStack {
+            Image(systemName: "c.circle")
+            .resizable()
+            .frame(width: 20, height: 20, alignment: .center)
+            Text("0")
             .font(.title)
+          }
           Spacer()
           Divider()
           Button(action: {}) { Text("チャージ(お手伝い)")
