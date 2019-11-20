@@ -9,8 +9,11 @@
 import SwiftUI
 
 struct SettingsView: View {
+  let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
+  
   var body: some View {
     NavigationView {
+      VStack {
       List {
         Section(header: Text("サポート")
           .font(.caption)
@@ -48,6 +51,8 @@ struct SettingsView: View {
               Text("特定商取法に基づく表示")
             }
         }
+      }
+        Text("バージョン\(appVersion ?? "VERSION INFO ERROR")")
       }
       .navigationBarTitle("設定", displayMode: .inline)
     }
