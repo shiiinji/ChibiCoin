@@ -16,9 +16,12 @@
 		D424543323827ABC007F748C /* ChibiCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424543223827ABC007F748C /* ChibiCoinTests.swift */; };
 		D424543E23827ABC007F748C /* ChibiCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424543D23827ABC007F748C /* ChibiCoinUITests.swift */; };
 		D424544C23828CF4007F748C /* ChibiCoinTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424544B23828CF4007F748C /* ChibiCoinTabView.swift */; };
+		D48C2CD32384BF630076DAC2 /* ChoreDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48C2CD22384BF630076DAC2 /* ChoreDetail.swift */; };
 		D4A8E2EA2382BE430013772E /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E2E92382BE430013772E /* MessageView.swift */; };
 		D4A8E2ED2382BE660013772E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E2EC2382BE660013772E /* SettingView.swift */; };
 		D4A8E2F02382BEA70013772E /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E2EF2382BEA70013772E /* ScanView.swift */; };
+		D4C186512383C67600A4FBF8 /* ChoresBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C186502383C67600A4FBF8 /* ChoresBoardView.swift */; };
+		D4C1865423842EAD00A4FBF8 /* Chore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C1865323842EAD00A4FBF8 /* Chore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +57,12 @@
 		D424543D23827ABC007F748C /* ChibiCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibiCoinUITests.swift; sourceTree = "<group>"; };
 		D424543F23827ABC007F748C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D424544B23828CF4007F748C /* ChibiCoinTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibiCoinTabView.swift; sourceTree = "<group>"; };
+		D48C2CD22384BF630076DAC2 /* ChoreDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreDetail.swift; sourceTree = "<group>"; };
 		D4A8E2E92382BE430013772E /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		D4A8E2EC2382BE660013772E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		D4A8E2EF2382BEA70013772E /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		D4C186502383C67600A4FBF8 /* ChoresBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoresBoardView.swift; sourceTree = "<group>"; };
+		D4C1865323842EAD00A4FBF8 /* Chore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +116,12 @@
 				D424541B23827AB9007F748C /* AppDelegate.swift */,
 				D424541D23827AB9007F748C /* SceneDelegate.swift */,
 				D424544B23828CF4007F748C /* ChibiCoinTabView.swift */,
+				D4C1865223842E7A00A4FBF8 /* Models */,
 				D4A8E2E72382BE190013772E /* Home */,
 				D4A8E2EE2382BE790013772E /* Scan */,
 				D4A8E2E82382BE2A0013772E /* Message */,
 				D4A8E2EB2382BE530013772E /* Setting */,
+				D48C2CD1238499D00076DAC2 /* Chore */,
 				D424542123827ABB007F748C /* Assets.xcassets */,
 				D424542623827ABB007F748C /* LaunchScreen.storyboard */,
 				D424542923827ABB007F748C /* Info.plist */,
@@ -148,6 +156,15 @@
 			path = ChibiCoinUITests;
 			sourceTree = "<group>";
 		};
+		D48C2CD1238499D00076DAC2 /* Chore */ = {
+			isa = PBXGroup;
+			children = (
+				D4C186502383C67600A4FBF8 /* ChoresBoardView.swift */,
+				D48C2CD22384BF630076DAC2 /* ChoreDetail.swift */,
+			);
+			path = Chore;
+			sourceTree = "<group>";
+		};
 		D4A8E2E72382BE190013772E /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +195,14 @@
 				D4A8E2EF2382BEA70013772E /* ScanView.swift */,
 			);
 			path = Scan;
+			sourceTree = "<group>";
+		};
+		D4C1865223842E7A00A4FBF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4C1865323842EAD00A4FBF8 /* Chore.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,8 +341,11 @@
 				D424541E23827AB9007F748C /* SceneDelegate.swift in Sources */,
 				D424544C23828CF4007F748C /* ChibiCoinTabView.swift in Sources */,
 				D4A8E2ED2382BE660013772E /* SettingView.swift in Sources */,
+				D4C1865423842EAD00A4FBF8 /* Chore.swift in Sources */,
+				D48C2CD32384BF630076DAC2 /* ChoreDetail.swift in Sources */,
 				D424542023827AB9007F748C /* HomeView.swift in Sources */,
 				D4A8E2EA2382BE430013772E /* MessageView.swift in Sources */,
+				D4C186512383C67600A4FBF8 /* ChoresBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
