@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct HomeView: View {
+  @State private var isChoresModal = false
+  
   var body: some View {
     ZStack {
       Color(hue: 1.0, saturation: 0.014, brightness: 0.974)
@@ -21,17 +23,21 @@ struct HomeView: View {
             .padding()
           HStack {
             Image(systemName: "c.circle")
-            .resizable()
-            .frame(width: 20, height: 20, alignment: .center)
+              .resizable()
+              .frame(width: 20, height: 20, alignment: .center)
             Text("0")
-            .font(.title)
+              .font(.title)
           }
           Spacer()
           Divider()
-          Button(action: {}) { Text("チャージ(お手伝い)")
+          Button(action: {
+            self.isChoresModal = true
+          }) { Text("チャージ(お手伝い)")
           }
           .foregroundColor(.red)
           .padding()
+        }.sheet(isPresented: self.$isChoresModal) {
+          ChoresBoardView()
         }
         .frame(width: 400, height: 200, alignment: .center)
         .background(Color.white)
@@ -53,9 +59,9 @@ struct HomeView: View {
           VStack {
             VStack(spacing: 0) {
               Image(systemName: "barcode.viewfinder")
-              .resizable()
-              .frame(width: 40, height: 40, alignment: .center)
-              .padding(.top)
+                .resizable()
+                .frame(width: 40, height: 40, alignment: .center)
+                .padding(.top)
               Text("読み取り")
                 .font(.headline)
                 .padding()

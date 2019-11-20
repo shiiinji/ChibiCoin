@@ -9,17 +9,17 @@
 import SwiftUI
 
 struct ChoresBoardView: View {
-  var chores: [Chores] = choresData
+  var chores: [Chore] = choresData
   var body: some View {
     NavigationView {
       List(chores) { chore in
         NavigationLink(
-        destination: EmptyView()) {
+        destination: ChoreDetail(chore: chore)) {
           Text(chore.title)
             .contextMenu {
-              Button("いいね💕") {
+              Button("いいね😆") {
               }
-              Button("あんまり") {
+              Button("あんまり😓") {
               }
           }
         }
